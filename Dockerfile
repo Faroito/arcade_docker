@@ -16,8 +16,11 @@ RUN apt-get update && apt-get install -y \
     g++ \
     xauth	\
     xorg	\
-    x11		\
+    x11-common	\
+    x11-utils	\
     libsfml-dev	\
     libncurses-dev	\
     liballegro5-dev	\
     valgrind
+
+RUN export DISPLAY=:0.0

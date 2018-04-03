@@ -3,7 +3,7 @@
 # 	     With Ncurses, Allegro and SFML installed
 #
 
-FROM ubuntu:16.10
+FROM ubuntu:16.04
 
 MAINTAINER Timothée Couble
 

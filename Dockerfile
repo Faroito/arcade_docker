@@ -3,7 +3,7 @@
 # 	     With Ncurses, Allegro and SFML installed
 #
 
-FROM ubuntu:16.04
+FROM debian:stretch
 
 MAINTAINER Timothée Couble
 

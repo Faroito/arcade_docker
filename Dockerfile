@@ -8,6 +8,7 @@ FROM debian:stretch
 MAINTAINER Timothée Couble
 
 RUN apt-get update && apt-get install -y \
+    apt-utils	   \
     build-essential \
     wget \
     git \

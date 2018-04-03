@@ -14,6 +14,9 @@ RUN apt-get update && apt-get install -y \
     gcc \
     clang \
     g++ \
+    xauth	\
+    xorg	\
+    x11		\
     libsfml-dev	\
     libncurses-dev	\
     liballegro5-dev	\
